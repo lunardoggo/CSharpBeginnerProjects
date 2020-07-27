@@ -8,6 +8,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C6CDEED-71CC-4A40-8C27-7E267EFAAC88}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunarDoggo.Beginners.ConsoleIOValidation", "LunarDoggo.Beginners.ConsoleIOValidation\LunarDoggo.Beginners.ConsoleIOValidation.csproj", "{A8D83E8B-A5D8-4B74-AF98-46C1B458CAD2}"
