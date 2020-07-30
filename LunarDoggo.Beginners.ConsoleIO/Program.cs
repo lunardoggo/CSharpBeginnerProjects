@@ -2,7 +2,7 @@
 //The namespace "System" contains many things you could need, in this example we need "Console" from this namespace
 using System;
 
-namespace LunarDoggo.Beginners.ConsoleIO
+namespace LunarDoggo.ConsoleIO
 {
     class Program
     {
