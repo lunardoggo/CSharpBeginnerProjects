@@ -43,7 +43,10 @@ namespace LunarDoggo.QuizGame.Visuals
         private void DrawQuizQuestionAnswer(QuizQuestionAnswer answer, bool highlited)
         {
             Console.SetCursorPosition(1, Console.CursorTop);
-            Console.WriteLine("({0}) {1}", highlited ? "*" : "", answer.Answer);
+            //you can write on line conditional statements in the format: {boolean expression} ? {action when the condition is met} : {action when the condition isn't met}
+            Console.WriteLine("({0}) {1}", highlited ? "*" : " ", answer.Answer);
+            //in this case, the previous line could also be written as:
+            //if(highlighted) { Console.WriteLine("({0}) {1}", "*", answer.Answer); } else { Console.WriteLine("({0}) {1}", " ", answer.Answer); }
         }
 
         public void DrawGameStart(int totalQuestionCount)

@@ -91,7 +91,7 @@ namespace LunarDoggo.QuizGame
         /// <summary>
         /// Moves the cursor up or down to highlight the previous or next question respectively
         /// </summary>
-        /// <param name="up"></param>
+        /// <param name="up">flag whether the cursor should be moved upwards to the previous answer</param>
         private void ChangeHighlightedAnswer(bool up)
         {
             if (this.state.CurrentQuestion != null && !this.state.IsCurrentQuestionAnswered)

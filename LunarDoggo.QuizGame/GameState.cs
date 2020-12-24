@@ -42,10 +42,13 @@ namespace LunarDoggo.QuizGame
         /// </summary>
         public int CorrectAnswersCount
         {
-            //With the methods provided by System.Linq you can write Lambda-Expressions which are like anonymous/nameless methods
-            //In this case we use the method "Where" which takes an expression that takes a QuizQuestion-instance, does some processing and returns a bool
+            //With the extension methods provided by System.Linq.Enumerable you can write Lambda-Expressions which are like anonymous/nameless methods that operate on a 
+            //given dataset (array, list, database, xml, ...). In this case we use the method "Where" which takes an expression that iterates the QuizQuestion-instances of givenAnswers, does some 
             //Format: ...Where({temporary variable name} => {expression that returns a boolean})
-            //more about lambda-expressions: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions
+            //learn more about lambda-expressions: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions
+            //learn more about System.Linq.Enumerable extension methods:
+            // - available methods: https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable?view=net-5.0
+            // - how to use them: https://www.dotnetperls.com/ienumerable
             get { return this.givenAnswers.Where(_pair => _pair.Value).Count(); }
         }
 
