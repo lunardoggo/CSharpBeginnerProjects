@@ -6,6 +6,7 @@ namespace LunarDoggo.QuizGame.Visuals
     {
         public ConsoleVisualizer()
         {
+            //this call hides the white underscore indicator of the cursor
             Console.CursorVisible = false;
         }
 
