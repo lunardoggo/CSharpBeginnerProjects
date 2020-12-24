@@ -1,0 +1,104 @@
+﻿[
+  {
+    "question": "1 + 1 is:",
+    "answers": [
+      {
+        "answer": "4",
+        "isCorrect": false
+      },
+      {
+        "answer": "2",
+        "isCorrect": true
+      },
+      {
+        "answer": "-7",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the smalles country in the world?",
+    "answers": [
+      {
+        "answer": "Vatican City State",
+        "isCorrect": true
+      },
+      {
+        "answer": "Andorra",
+        "isCorrect": false
+      },
+      {
+        "answer": "Lichtenstein",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which is the hottest planet of the solar system?",
+    "answers": [
+      {
+        "answer": "Jupiter",
+        "isCorrect": false
+      },
+      {
+        "answer": "Venus",
+        "isCorrect": true
+      },
+      {
+        "answer": "Mercury",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Who discovered the radioactive elements \"polonium\" and \"radium\"?",
+    "answers": [
+      {
+        "answer": "Antoine Henri Becquerel",
+        "isCorrect": false
+      },
+      {
+        "answer": "Niels Bohr",
+        "isCorrect": false
+      },
+      {
+        "answer": "Marie Curie",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Which solar system planet has the lowest overall density?",
+    "answers": [
+      {
+        "answer": "Saturn",
+        "isCorrect": true
+      },
+      {
+        "answer": "Jupiter",
+        "isCorrect": false
+      },
+      {
+        "answer": "Neptune",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "The solar system object \"Pluto\" is classified as a:",
+    "answers": [
+      {
+        "answer": "Planet",
+        "isCorrect": false
+      },
+      {
+        "answer": "Dwarf planet",
+        "isCorrect": true
+      },
+      {
+        "answer": "Comet",
+        "isCorrect": false
+      }
+    ]
+  }
+]
