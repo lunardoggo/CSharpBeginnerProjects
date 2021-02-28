@@ -1,0 +1,41 @@
+﻿<Window x:Class="TicTacToe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TicTacToe"
+        mc:Ignorable="d"
+        Title="TicTacToe" Height="400" Width="400" ResizeMode="NoResize">
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <EventSetter Event="Click" Handler="OnButtonClicked"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Column="0" Grid.Row="0" x:Name="btnTopLeft"/>
+        <Button Grid.Column="1" Grid.Row="0" x:Name="btnTopCenter"/>
+        <Button Grid.Column="2" Grid.Row="0" x:Name="btnTopRight"/>
+
+        <Button Grid.Column="0" Grid.Row="1" x:Name="btnMiddleLeft"/>
+        <Button Grid.Column="1" Grid.Row="1" x:Name="btnMiddleCenter"/>
+        <Button Grid.Column="2" Grid.Row="1" x:Name="btnMiddleRight"/>
+
+        <Button Grid.Column="0" Grid.Row="2" x:Name="btnBottomLeft"/>
+        <Button Grid.Column="1" Grid.Row="2" x:Name="btnBottomCenter"/>
+        <Button Grid.Column="2" Grid.Row="2" x:Name="btnBottomRight"/>
+    </Grid>
+</Window>
