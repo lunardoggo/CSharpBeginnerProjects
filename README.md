@@ -6,3 +6,4 @@ Simple C# projects for beginners with explanatory comments
   * [Console input validation](https://github.com/lunardoggo/CSharpBeginnerProjects/tree/master/LunarDoggo.Beginners.ConsoleIOValidation)
   * [File system access](https://github.com/lunardoggo/CSharpBeginnerProjects/tree/master/LunarDoggo.FileSystemTree)
   * [Simple Quiz Game](https://github.com/lunardoggo/CSharpBeginnerProjects/tree/master/LunarDoggo.QuizGame)
+  * [WPF TicTacToe](https://github.com/lunardoggo/CSharpBeginnerProjects/tree/master/LunarDoggo.TicTacToe)

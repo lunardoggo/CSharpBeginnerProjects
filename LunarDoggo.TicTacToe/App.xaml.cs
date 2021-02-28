@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 
 namespace TicTacToe
 {
     /// <summary>
-    /// Interaktionslogik für "App.xaml"
+    /// Interactionlogic for "App.xaml"
     /// </summary>
     public partial class App : Application
     {
+        //In this class you could override multiple methods to customize your application
     }
 }
