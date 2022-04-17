@@ -6,7 +6,7 @@ At first the user receives a list of games to the console-window. Afterwards the
 # Topics
   * sequence (commands that are executed in the same order as they are written in the source-file)
   * loops (for, do-while)
-  * static-lass-variable-declaration
-  * static-lass-variable-assignment
+  * static-class-variable-declaration
+  * static-class-variable-assignment
   * checking if the user-input is an integer and if it is a valid index
   * boolean-negation (!-operator)

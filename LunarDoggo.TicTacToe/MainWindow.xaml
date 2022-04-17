@@ -1,0 +1,60 @@
+﻿<!--Comments in XML can only be inserted between tags and not in attribute-lists; Comments can be single and multiline-->
+<!--the .xaml-file in WPF defines the layout your Window/UserControl should have, the xaml.cs-file defines the logic behind-->
+<Window x:Class="TicTacToe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="TicTacToe" Height="400" Width="400" ResizeMode="NoResize">
+    <!--With the xmlns-attribute you can include schemas or custom C# namespaces in the layout file in order to use specific attributes or tags
+        There can only be wone "xmlns"-defualt-namespace without any suffix, all other namespaces must have a suffix behind "xmlns:"
+        The default namespace provides the default WPF-UserControls and the most important attributes regarding these controls
+    -->
+    
+    <!--In Windows.Resources you can define different kinds of resources to be used in the Window/UserControl; eg. Styles, Converters, DataTemplates, Colors, ...-->
+    <Window.Resources>
+        <!--This style only applies to the Buttons of this Window; Because it doesn't define the Key-attribute, it is automatically applied to all Buttons-->
+        <!--Styles defined in resources have the advantage, that you don't have to set the properties defined in the style to every single Control you
+            want to have the same style; the resource-approach can help you to keep your visual styles more centralized and keep your application more uniform-->
+        <Style TargetType="{x:Type Button}">
+            <!--Here we set one EventHandler to handle all click events of all Buttons that use this style-->
+            <EventSetter Event="Click" Handler="OnButtonClicked"/>
+            <!--Here we set the visual appearance of all Buttons that use this style-->
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+    </Window.Resources>
+    
+    <!--This is the first control added to the Window, it is a simple grid consisting of three columns and rows-->
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <!--ColumnDefinitions can have define Width attribute, if it isn't set on any of them, all columns are equally spaced-->
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <!--RowDefinitions can have define Height attribute, if it isn't set on any of them, all columns are equally spaced-->
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!--With Grid.Column we set the button to be in a specific column of the grid, same with Grid.Row,
+            with x:Name we set a specific name for the button, wich we can use in the C#-code behind
+            Note that x:Name uses the x-prefix because it is part of the previously defined xmlns:x-->
+        <Button Grid.Column="0" Grid.Row="0" x:Name="btnTopLeft"/>
+        <Button Grid.Column="1" Grid.Row="0" x:Name="btnTopCenter"/>
+        <Button Grid.Column="2" Grid.Row="0" x:Name="btnTopRight"/>
+
+        <Button Grid.Column="0" Grid.Row="1" x:Name="btnMiddleLeft"/>
+        <Button Grid.Column="1" Grid.Row="1" x:Name="btnMiddleCenter"/>
+        <Button Grid.Column="2" Grid.Row="1" x:Name="btnMiddleRight"/>
+
+        <Button Grid.Column="0" Grid.Row="2" x:Name="btnBottomLeft"/>
+        <Button Grid.Column="1" Grid.Row="2" x:Name="btnBottomCenter"/>
+        <Button Grid.Column="2" Grid.Row="2" x:Name="btnBottomRight"/>
+    </Grid>
+</Window>
