@@ -2,6 +2,7 @@
 using System.Text.Json;
 using System.IO;
 using System;
+using System.Text.Json.Serialization;
 
 namespace LunarDoggo.QuizGame.IO
 {
@@ -33,11 +34,11 @@ namespace LunarDoggo.QuizGame.IO
         /// </summary>
         private void SetGuids(IEnumerable<QuizQuestion> questions)
         {
-            foreach(QuizQuestion question in questions)
+            foreach (QuizQuestion question in questions)
             {
                 //Guid.NewGuid() generates a new random Guid
                 question.Id = Guid.NewGuid();
-                foreach(QuizQuestionAnswer answer in question.Answers)
+                foreach (QuizQuestionAnswer answer in question.Answers)
                 {
                     answer.Id = Guid.NewGuid();
                 }
@@ -48,10 +49,10 @@ namespace LunarDoggo.QuizGame.IO
         {
             JsonSerializerOptions options = new JsonSerializerOptions()
             {
+                DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull, //if a property has the value "null", it will be ignored
                 ReadCommentHandling = JsonCommentHandling.Skip, //when the json content contains comments, they will be ignored
                 PropertyNameCaseInsensitive = true, //the casing of propertynames will be ignored for the deserialization
-                AllowTrailingCommas = true, //if the json content contains a lonely ",", it will be ignored 
-                IgnoreNullValues = true //if a property has the value "null", it will be ignored
+                AllowTrailingCommas = true //if the json content contains a lonely ",", it will be ignored
             };
 
             //System.Text.Json.JsonSerializer deserializes the content string into a QuizQuestion array 

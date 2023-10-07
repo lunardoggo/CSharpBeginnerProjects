@@ -113,7 +113,7 @@ namespace TicTacToe
         /// </summary>
         private void OnTilesReset(object sender, EventArgs e)
         {
-            foreach(ButtonTileMapping mapping in this.buttonTileMappings)
+            foreach (ButtonTileMapping mapping in this.buttonTileMappings)
             {
                 mapping.Button.Content = "";
             }

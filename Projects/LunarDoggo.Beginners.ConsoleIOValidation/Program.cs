@@ -65,7 +65,7 @@ namespace LunarDoggo.ConsoleIOValidation
              * coutner-variable is less than the current count of games in our previously defined list of games. If the condition is not met,
              * the counter-variable is incremented by one (i++) otherwise the loop is exited
              */
-            for(int i = 0; i < Program.games.Count; i++)
+            for (int i = 0; i < Program.games.Count; i++)
             {
                 //We just print the index of the game and the name of it to the console
                 Console.WriteLine("[" + i + "]: " + Program.games[i]);
@@ -78,7 +78,7 @@ namespace LunarDoggo.ConsoleIOValidation
             //variables can be declared without assigning a value to it, this should only be done if you assign a value shortly afterwards
             int chosenIndex;
             string choice;
-            
+
             //a do-while-loop first enters its body, executes the contained code and afterwards checks the condition
             do
             {

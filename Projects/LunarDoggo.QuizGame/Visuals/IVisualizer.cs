@@ -26,7 +26,7 @@ namespace LunarDoggo.QuizGame.Visuals
         /// <param name="correct">bool-indicator if the last given answer was correct</param>
         /// <param name="correctAnswer">answer to be displayed if correct is set to false</param>
         void DrawAnswerStatus(bool correct, QuizQuestionAnswer correctAnswer);
-        
+
         /// <summary>
         /// Draws a <see cref="QuizQuestion"/> to the display and highlights the currenctly selected <see cref="QuizQuestionAnswer"/>
         /// where <see cref="QuizQuestionAnswer.Id"/> equals <paramref name="highlitedAnswerId"/>

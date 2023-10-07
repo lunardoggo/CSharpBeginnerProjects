@@ -21,7 +21,7 @@ namespace TicTacToe
         /// </summary>
         public bool OccupyTile(Player player, int x, int y)
         {
-            if(this.IsTileOccupied(x, y))
+            if (this.IsTileOccupied(x, y))
             {
                 return false;
             }
@@ -44,7 +44,7 @@ namespace TicTacToe
                 //with tiles.GetLength(1) we get the length of the second dimension of the tiles-2D-array
                 for (int y = 0; y < tiles.GetLength(1); y++)
                 {
-                    if(!this.IsTileOccupied(x, y))
+                    if (!this.IsTileOccupied(x, y))
                     {
                         return false;
                     }

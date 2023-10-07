@@ -142,9 +142,9 @@ namespace LunarDoggo.QuizGame
             {
                 QuizQuestionAnswer givenAnswer = this.CurrentQuestion.Answers[highlightedAnswerIndex];
                 //remove the current question from the list of unanswered questions so it isn't asked again
-                this.unansweredQuestions.Remove(this.CurrentQuestion); 
+                this.unansweredQuestions.Remove(this.CurrentQuestion);
                 //add the current question and whether the answer was correct to GameState.givenAnswers for the final result
-                this.givenAnswers.Add(this.CurrentQuestion, givenAnswer.IsCorrect); 
+                this.givenAnswers.Add(this.CurrentQuestion, givenAnswer.IsCorrect);
                 this.IsCurrentQuestionAnswered = true;
                 this.ChosenAnswer = givenAnswer;
             }

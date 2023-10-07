@@ -17,7 +17,7 @@ namespace LunarDoggo.QuizGame.Visuals
 
         public void DrawAnswerStatus(bool correct, QuizQuestionAnswer correctAnswer)
         {
-            if(correct)
+            if (correct)
             {
                 Console.WriteLine("Your answer is correct. Continue with \"enter\".");
             }
@@ -64,6 +64,6 @@ namespace LunarDoggo.QuizGame.Visuals
         public void DrawPlayAgain()
         {
             Console.WriteLine("Do you like to play again? (Y/N)");
-        } 
+        }
     }
 }

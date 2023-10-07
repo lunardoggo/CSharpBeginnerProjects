@@ -19,7 +19,7 @@ namespace LunarDoggo.ConsoleIO
             Console.WriteLine();
             //Console.Write writes the provided string to the console-window, the cursor will be on the same line
             Console.Write("Please tell me your name: ");
-            
+
             /*
              * variables are declared in the format:
              * <datatype> <variablename> = <value>
@@ -47,7 +47,7 @@ namespace LunarDoggo.ConsoleIO
              * in this case the condition of the if-statement is String.IsNullOrEmpty(name) which checks if the value of name-variable consists of any
              * non-space-character and returns a false if this is the case, true is returned, when no non-space-chcaracters are contained or the strings length is 0
              */
-            if(String.IsNullOrWhiteSpace(name))
+            if (String.IsNullOrWhiteSpace(name))
             {
                 Console.WriteLine("So you don't have a name? All right, then. Keep your secrets.");
             }

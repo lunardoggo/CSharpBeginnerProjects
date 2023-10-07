@@ -76,7 +76,7 @@ namespace TicTacToe
             {
                 //If the tile of the gameboard can be occupied, check if the game is either won
                 //or ended in a draw. If neither is the case, switch the player
-                if(this.gameBoard.HasWon(this.currentPlayer.Id))
+                if (this.gameBoard.HasWon(this.currentPlayer.Id))
                 {
                     //Events could be raised by (in this case) calling this.GameOverPlayerWon(this, new PlayerEventArgs(this.currentPlayer))
                     //But if there aren't any handlers subscribed to it, this will lead to a NullReferenceException
@@ -85,7 +85,7 @@ namespace TicTacToe
                     // if(this.GameOverPlayerWon != null) { this.GameOverPlayerWon(this, new PlayerEventArgs(this.currentPlayer)); }
                     this.GameOverPlayerWon?.Invoke(this, new PlayerEventArgs(this.currentPlayer));
                 }
-                else if(this.gameBoard.AreAllFieldsOccupied())
+                else if (this.gameBoard.AreAllFieldsOccupied())
                 {
                     //If you want to raise an event, that uses the regular EventArgs as an eventtype, 
                     //you can use EventArgs.Empty instead of new EventArgs()

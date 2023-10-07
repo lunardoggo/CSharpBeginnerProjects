@@ -11,7 +11,7 @@ namespace LunarDoggo.QuizGame
     {
         private readonly IVisualizer visualizer; //swappable IVisualizer-instance due to interface-usage
         private readonly GameState state;
-        
+
         private bool isStarted; //Indicator if the game has started yet
 
         public bool IsFinished { get; private set; }
@@ -77,7 +77,7 @@ namespace LunarDoggo.QuizGame
             {
                 this.visualizer.DrawQuizQuestion(question, this.state.HighlightedAnswer.Id);
             }
-            if(this.state.IsCurrentQuestionAnswered)
+            if (this.state.IsCurrentQuestionAnswered)
             {
                 this.visualizer.DrawAnswerStatus(this.state.ChosenAnswer.IsCorrect, question.CorrectAnswer);
             }
@@ -112,9 +112,9 @@ namespace LunarDoggo.QuizGame
         /// </summary>
         private void ProcessEnterPress()
         {
-            if(this.isStarted)
+            if (this.isStarted)
             {
-                if(this.state.IsCurrentQuestionAnswered)
+                if (this.state.IsCurrentQuestionAnswered)
                 {
                     this.state.MoveToNextQuestion();
                 }

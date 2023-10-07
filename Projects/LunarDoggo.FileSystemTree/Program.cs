@@ -76,7 +76,7 @@ namespace LunarDoggo.FileSystemTree
                 Console.Write("Please enter a valid directory path: ");
                 path = Console.ReadLine();
 
-            //While the user input is not a valid path and therefor doesn't exist, continue to prompt for a valid directory path
+                //While the user input is not a valid path and therefor doesn't exist, continue to prompt for a valid directory path
             } while (!Directory.Exists(path));
             return path;
         }
