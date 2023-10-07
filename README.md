@@ -1,6 +1,8 @@
 # CSharpBeginnerProjects
 In this repository you'll find some basic example projects showcasing some important features of C#, as well as some basic algorithms and datastructures that are a must know in the field of computer science.
 
+The project is provided _without_ any warranty under the Unilicense, so that the code can be used in any private or commercial project with or without modifications.
+
 # Example applications
   * [Console input output](https://github.com/lunardoggo/CSharpBeginnerProjects/tree/main/Projects/LunarDoggo.Beginners.ConsoleIO)
   * [Console input validation](https://github.com/lunardoggo/CSharpBeginnerProjects/tree/main/Projects/LunarDoggo.Beginners.ConsoleIOValidation)
@@ -29,8 +31,8 @@ In this repository you'll find some basic example projects showcasing some impor
   * [Binary Tree](https://github.com/lunardoggo/CSharpBeginnerProjects/)
 
 ### **Graphs**
-  * [Undirected Graph](https://github.com/lunardoggo/CSharpBeginnerProjects/)
-  * [Directed Graph](https://github.com/lunardoggo/CSharpBeginnerProjects/)
+  * [Undirected Graph](https://github.com/lunardoggo/CSharpBeginnerProjects/tree/main/Datastructures/Graphs)
+  * [Directed Graph](https://github.com/lunardoggo/CSharpBeginnerProjects/tree/main/Datastructures/Graphs)
 
 ---
 
@@ -50,7 +52,7 @@ In this repository you'll find some basic example projects showcasing some impor
 
 ### **Pathfinding in Graphs**
   * [Breadth-First-Search/BFS](https://github.com/lunardoggo/CSharpBeginnerProjects/)
-  * [Depth-First-Search/DFS](https://github.com/lunardoggo/CSharpBeginnerProjects/)
+  * [Depth-First-Search/DFS](https://github.com/lunardoggo/CSharpBeginnerProjects/blob/main/Algorithms/Graphs/Pathfinding/DepthFirstSearch.cs)
   * [Dijkstra's algorithm](https://github.com/lunardoggo/CSharpBeginnerProjects/)
   * [A* algorithm](https://github.com/lunardoggo/CSharpBeginnerProjects/)
 
