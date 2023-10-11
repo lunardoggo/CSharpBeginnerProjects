@@ -1,12 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30320.27
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunarDoggo.ConsoleIO", "Projects\LunarDoggo.Beginners.ConsoleIO\LunarDoggo.ConsoleIO.csproj", "{897DEAB7-A5F6-4030-89D8-0DE3AA6A71A3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C6CDEED-71CC-4A40-8C27-7E267EFAAC88}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 		.gitignore = .gitignore
 		LICENSE = LICENSE
 		README.md = README.md
@@ -20,9 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunarDoggo.QuizGame", "Proj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunarDoggo.TicTacToe", "Projects\LunarDoggo.TicTacToe\LunarDoggo.TicTacToe.csproj", "{6E55DCAE-9F1F-4438-843C-36A8C436FEE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunarDoggo.Datastructures", "Datastructures\LunarDoggo.Datastructures.csproj", "{C427DCA1-9268-481F-B9C9-21A5AB1458D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunarDoggo.Datastructures", "Datastructures\LunarDoggo.Datastructures.csproj", "{C427DCA1-9268-481F-B9C9-21A5AB1458D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunarDoggo.Algorithms", "Algorithms\LunarDoggo.Algorithms.csproj", "{AA6715E0-5EA1-4D3A-A8D9-CCBA35B43965}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunarDoggo.Algorithms", "Algorithms\LunarDoggo.Algorithms.csproj", "{AA6715E0-5EA1-4D3A-A8D9-CCBA35B43965}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

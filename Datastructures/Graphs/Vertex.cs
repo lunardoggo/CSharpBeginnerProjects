@@ -23,7 +23,7 @@ namespace LunarDoggo.Datastructures.Graphs
         /// <summary>
         /// Returns or updates the value that's stored inside of this vertex
         /// </summary>
-        public T? Value { get; set; }
+        public T Value { get; set; }
         /// <summary>
         /// Returns a collection of all Vertices adjacent to this vertex
         /// </summary>
@@ -52,7 +52,7 @@ namespace LunarDoggo.Datastructures.Graphs
                 //The vertex is not concerned if the graph it's contained in is directed or undirected, as a result,
                 //adjacencies of undirected graphs will have to be managed by the graph isntance itself
                 //Additionally, using a HashSet has the advantage that one doesn't have to check if "other" actually
-                //is contained in the HashSet before adding a new entry (https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1.add?view=net-6.0)
+                //is contained in the HashSet before adding a new entry (https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1.addview=net-6.0)
                 this.adjacent.Add(other);
             }
         }
@@ -70,7 +70,7 @@ namespace LunarDoggo.Datastructures.Graphs
                 //The vertex is not concerned if the graph it's contained in is directed or undirected, as a result,
                 //adjacencies of undirected graphs will have to be managed by the graph isntance itself
                 //Additionally, using a HashSet has the advantage that one doesn't have to check if "other" actually
-                //is contained in the HashSet before adding a new entry (https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1.remove?view=net-6.0)
+                //is contained in the HashSet before adding a new entry (https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1.removeview=net-6.0)
                 this.adjacent.Remove(other);
             }
         }

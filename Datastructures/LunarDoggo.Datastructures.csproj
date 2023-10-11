@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="E:\Git\C-Sharp\Workspace\CSharpBeginnerProjects\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="E:\Git\C-Sharp\Workspace\CSharpBeginnerProjects\.editorconfig" />
+  </ItemGroup>
+
 </Project>
