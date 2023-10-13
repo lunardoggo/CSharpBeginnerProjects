@@ -14,11 +14,11 @@ The project is provided _without_ any warranty under the Unilicense, so that the
 
 # Datastructures
 ### **Collections**
-  * [LinkedList](https://github.com/lunardoggo/CSharpBeginnerProjects/blob/main/Datastructures/Collections/LinkedList)
-  * [ArrayList](https://github.com/lunardoggo/CSharpBeginnerProjects/)
-  * [Queue](https://github.com/lunardoggo/CSharpBeginnerProjects/blob/main/Datastructures/Collections/Queue)
+  * [LinkedList](https://github.com/lunardoggo/CSharpBeginnerProjects/blob/main/Datastructures/Collections/LinkedList.cs)
+  * [ArrayList](https://github.com/lunardoggo/CSharpBeginnerProjects/blob/main/Datastructures/Collections/ArrayList.cs)
+  * [Queue](https://github.com/lunardoggo/CSharpBeginnerProjects/blob/main/Datastructures/Collections/Queue.cs)
   * [PriorityQueue](https://github.com/lunardoggo/CSharpBeginnerProjects/)
-  * [Stack](https://github.com/lunardoggo/CSharpBeginnerProjects/blob/main/Datastructures/Collections/Stack)
+  * [Stack](https://github.com/lunardoggo/CSharpBeginnerProjects/blob/main/Datastructures/Collections/Stack.cs)
   * [HashSet](https://github.com/lunardoggo/CSharpBeginnerProjects/)
 
 ### **Heaps**

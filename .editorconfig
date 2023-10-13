@@ -1,16 +1,10 @@
 ﻿[*.cs]
 
-# CS8600: Das NULL-Literal oder ein möglicher NULL-Wert wird in einen Non-Nullable-Typ konvertiert.
 dotnet_diagnostic.CS8600.severity = silent
-
-# CS8602: Dereferenzierung eines möglichen Nullverweises.
 dotnet_diagnostic.CS8602.severity = silent
-
-# CS8603: Mögliche Nullverweisrückgabe.
 dotnet_diagnostic.CS8603.severity = silent
-
-# CS8618: Ein Non-Nullable-Feld muss beim Beenden des Konstruktors einen Wert ungleich NULL enthalten. Erwägen Sie die Deklaration als Nullable.
 dotnet_diagnostic.CS8618.severity = silent
+dotnet_diagnostic.CS8601.severity = silent
 
 [*.cs]
 #### Benennungsstile ####
