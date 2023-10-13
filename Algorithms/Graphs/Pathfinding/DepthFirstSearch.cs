@@ -78,13 +78,13 @@ namespace LunarDoggo.Algorithms.Graphs.Pathfinding
     public class DFSVertex
     {
         /// <summary>
-        /// Returns whether this vertex has been processed yet. It is considered processed if the start time is valid
+        /// Returns whether this vertex has already been processed. It is considered processed if the start time is valid
         /// </summary>
         public bool Processed { get => this.StartTime != -1; }
         /// <summary>
         /// Returns the predecessor of this vertex on the path from the previous vertex
         /// </summary>
-        public Vertex<DFSVertex>? Predecessor { get; set; }
+        public Vertex<DFSVertex> Predecessor { get; set; }
         /// <summary>
         /// Returns the start time of the processing of this vertex
         /// </summary>

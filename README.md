@@ -12,6 +12,8 @@ The project is provided _without_ any warranty under the Unilicense, so that the
 
 ---
 
+The algurithms and data structures showcased in this project are intended to teach basic concepts, therefor they will largely be implemented in a way that they can easily be adapted to other languages.
+
 # Datastructures
 ### **Collections**
   * [LinkedList](https://github.com/lunardoggo/CSharpBeginnerProjects/blob/main/Datastructures/Collections/LinkedList.cs)
@@ -51,7 +53,7 @@ The project is provided _without_ any warranty under the Unilicense, so that the
   * [BinarySearch](https://github.com/lunardoggo/CSharpBeginnerProjects/)
 
 ### **Pathfinding in Graphs**
-  * [Breadth-First-Search/BFS](https://github.com/lunardoggo/CSharpBeginnerProjects/)
+  * [Breadth-First-Search/BFS](https://github.com/lunardoggo/CSharpBeginnerProjects/blob/main/Algorithms/Graphs/Pathfinding/BreadthFirstSearch.cs)
   * [Depth-First-Search/DFS](https://github.com/lunardoggo/CSharpBeginnerProjects/blob/main/Algorithms/Graphs/Pathfinding/DepthFirstSearch.cs)
   * [Dijkstra's algorithm](https://github.com/lunardoggo/CSharpBeginnerProjects/)
   * [A* algorithm](https://github.com/lunardoggo/CSharpBeginnerProjects/)
