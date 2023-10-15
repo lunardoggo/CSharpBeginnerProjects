@@ -34,7 +34,7 @@ namespace LunarDoggo.Datastructures.Graphs
         //Equals() is overriden because HashSets are used to store edges and therefore it's easier to avoid
         //duplicate entries if edges containing the same values are considered equal instead of relying on
         //reference equality
-        public override bool Equals(object obj)
+        public override bool Equals(object? obj)
         {
             //If the provided object is an edge all edge properties are compared. As there can be multiple vertices containing the same
             //value, two vertices are considered distinct, even if they contain the same value. As a result the Equals() method of 
