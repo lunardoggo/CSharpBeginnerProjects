@@ -12,7 +12,7 @@ The project is provided _without_ any warranty under the Unilicense, so that the
 
 ---
 
-The algurithms and data structures showcased in this project are intended to teach basic concepts, therefore they will largely be implemented in a way that they can easily be adapted to other languages. In order to understand the provided comments you also should take a look at [Big O notation](https://github.com/lunardoggo/CSharpBeginnerProjects/blob/main/Concepts/Big O notation.md)
+The algurithms and data structures showcased in this project are intended to teach basic concepts, therefore they will largely be implemented in a way that they can easily be adapted to other languages. In order to understand the provided comments you also should take a look at [Big O notation](https://github.com/lunardoggo/CSharpBeginnerProjects/blob/main/Concepts/Big%20O%20notation.md)
 
 # Datastructures
 ### **Collections**
@@ -40,7 +40,7 @@ The algurithms and data structures showcased in this project are intended to tea
 
 # Algorithms
 ### **Sorting**
-  * [InsertionSort](https://github.com/lunardoggo/CSharpBeginnerProjects/)
+  * [InsertionSort](https://github.com/lunardoggo/CSharpBeginnerProjects/blob/main/Algorithms/Sorting/InsertionSort.cs)
   * [MergeSort](https://github.com/lunardoggo/CSharpBeginnerProjects/)
   * [HeapSort](https://github.com/lunardoggo/CSharpBeginnerProjects/)
   * [QuickSort](https://github.com/lunardoggo/CSharpBeginnerProjects/)
