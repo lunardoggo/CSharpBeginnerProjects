@@ -31,7 +31,7 @@ namespace LunarDoggo.Datastructures.Graphs
         /// </summary>
         public Vertex<T> To { get; }
 
-        //Equals() is overriden because HashSets are used to store edges and therefor it's easier to avoid
+        //Equals() is overriden because HashSets are used to store edges and therefore it's easier to avoid
         //duplicate entries if edges containing the same values are considered equal instead of relying on
         //reference equality
         public override bool Equals(object obj)

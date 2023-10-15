@@ -22,7 +22,7 @@ namespace LunarDoggo.Algorithms.Graphs.Pathfinding
 
             //DFS is usually also implemented in a way that works on disconnected graphs by iterating over all vertices.
             //If a vertex hasn't been processed yet, it must be in a component of the graph that's unreachable from the
-            //Previously processed part and therefor the recursion is started once again.
+            //Previously processed part and therefore the recursion is started once again.
             foreach (Vertex<DFSVertex> vertex in graph.Vertices)
             {
                 if (!vertex.Value!.Processed)

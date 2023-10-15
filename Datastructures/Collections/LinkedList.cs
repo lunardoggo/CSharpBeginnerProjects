@@ -42,7 +42,7 @@
         /// </summary>
         public LinkedListItem<T> Insert(T value)
         {
-            //New items are inserted at the front of the list, therefor the previous reference of this.head has to be updated and
+            //New items are inserted at the front of the list, therefore the previous reference of this.head has to be updated and
             //the new item has to be set as the new head
             LinkedListItem<T> item = new LinkedListItem<T>(value);
             item.Next = this.head;

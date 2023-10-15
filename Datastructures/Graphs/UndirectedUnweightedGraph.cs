@@ -8,7 +8,7 @@ namespace LunarDoggo.Datastructures.Graphs
         private HashSet<Edge<T>> edges = new HashSet<Edge<T>>();
 
         //If the original HashSet was returned, it would be possible to modify the original collection of vertices/edges
-        //therefor the LINQ method ToArray() is called to return a copy of the original sets
+        //therefore the LINQ method ToArray() is called to return a copy of the original sets
         public IEnumerable<Vertex<T>> Vertices { get => this.vertices.ToArray(); }
         public IEnumerable<Edge<T>> Edges { get => this.edges.ToArray(); }
 
@@ -21,7 +21,7 @@ namespace LunarDoggo.Datastructures.Graphs
             lock (this.edges)
             {
                 //The ArgumentNullException advertised in the definition of AddEdge in IUnweightedGraph will be thrown by the
-                //constructor of Edge<T>, therefor it isn't necessary to check from and to for null values here
+                //constructor of Edge<T>, therefore it isn't necessary to check from and to for null values here
                 Edge<T> edge = new Edge<T>(from, to, true);
 
                 //As the edge and adjacencies are stored in HashSets, it isn't necessary to check if it already exists

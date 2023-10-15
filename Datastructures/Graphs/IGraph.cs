@@ -29,7 +29,7 @@ namespace LunarDoggo.Datastructures.Graphs
 
     //Unweighted graphs can also be described as graphs where every edge has the same weight of a constant c.
     //This project uses two different interfaces to represent graphs noneteless, as unweighted graphs would
-    //need to implement a parameter "weight" when adding edges, that the graph doesn't need and therefor
+    //need to implement a parameter "weight" when adding edges, that the graph doesn't need and therefore
     //shouldn't implement
 
     /// <summary>

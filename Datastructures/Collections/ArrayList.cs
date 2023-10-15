@@ -9,7 +9,7 @@ namespace LunarDoggo.Datastructures.Collections
     //To ensure that the array always stays viable, the minimum array size is set to 8
     //In contrast to linked lists, the time complexity of deleting an item is O(n) instead of O(1) with n being the number of items
     //that is currently stored, but array lists often are preferred over linked lists, as they are generally easier to work with,
-    //because you don't have to keep track of LinkedListItems and therefor you cannot break the list by accident that easily
+    //because you don't have to keep track of LinkedListItems and therefore you cannot break the list by accident that easily
     public class ArrayList<T> where T : class
     {
         /// <summary>
@@ -59,7 +59,7 @@ namespace LunarDoggo.Datastructures.Collections
         public void RemoveAt(int index)
         {
             //The remove operation has a time complexity of O(n), as, in the worst case, every item in the array has
-            //to be shifted one cell to the left. The amortized time complexity therefor also is O(n), even though
+            //to be shifted one cell to the left. The amortized time complexity therefore also is O(n), even though
             //copying the array also rarely occurs for large n's
             //As just setting the default value to the removed item would leave gaps and replacing the removed item
             //with the last item in the list would shuffle the list over time, every item after the removed index
@@ -85,7 +85,7 @@ namespace LunarDoggo.Datastructures.Collections
         public int IndexOf(T item)
         {
             //The IndexOf operation does the same job, as the Search operation of a LinkedList, but instead of returning
-            //a LinkedListITem, it returns the index an item is stored at. Therefor both have the same time complexity
+            //a LinkedListITem, it returns the index an item is stored at. Therefore both have the same time complexity
             //of O(n)
 
             //A return value of -1 signifies that the item isn't present in the list

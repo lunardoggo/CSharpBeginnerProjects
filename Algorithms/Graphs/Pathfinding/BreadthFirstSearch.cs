@@ -16,7 +16,7 @@ namespace LunarDoggo.Algorithms.Graphs.Pathfinding
 
             this.Initialize(graph, start);
 
-            //BFS is usually implemented in a way that doesn't work on disconnected graphs. BFS can therefor be
+            //BFS is usually implemented in a way that doesn't work on disconnected graphs. BFS can therefore be
             //used to find all vertices contained in a connected component of the graph.
             //BFS additionally is implemented iteratively using a queue. One could imagine the execution as a wave that propagates from the starting vertex to all reachable vertices of the graph
             Queue<Vertex<BFSVertex>> queue = new Queue<Vertex<BFSVertex>>();

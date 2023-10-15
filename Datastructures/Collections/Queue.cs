@@ -35,7 +35,7 @@ namespace LunarDoggo.Datastructures.Collections
             //Enqueue has a time complexity of O(1), as only constant time operations are used sequentially
 
             //head points to the oldest element and tail to the next place to be used; if head and tail have the same
-            //value after this operation, it cannot be distinguished between a full and an empty queue, therefor an
+            //value after this operation, it cannot be distinguished between a full and an empty queue, therefore an
             //Exception must be thrown before adding the element to avoid this situation
             if ((this.tailIndex + 1) % this.cache.Length == this.headIndex)
             {

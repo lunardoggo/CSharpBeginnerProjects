@@ -12,7 +12,7 @@ The project is provided _without_ any warranty under the Unilicense, so that the
 
 ---
 
-The algurithms and data structures showcased in this project are intended to teach basic concepts, therefor they will largely be implemented in a way that they can easily be adapted to other languages.
+The algurithms and data structures showcased in this project are intended to teach basic concepts, therefore they will largely be implemented in a way that they can easily be adapted to other languages.
 
 # Datastructures
 ### **Collections**
@@ -30,7 +30,7 @@ The algurithms and data structures showcased in this project are intended to tea
 
 ### **Trees**
   * [General Tree](https://github.com/lunardoggo/CSharpBeginnerProjects/)
-  * [Binary Tree](https://github.com/lunardoggo/CSharpBeginnerProjects/)
+  * [Binary Search Tree](https://github.com/lunardoggo/CSharpBeginnerProjects/)
 
 ### **Graphs**
   * [Undirected Graph](https://github.com/lunardoggo/CSharpBeginnerProjects/tree/main/Datastructures/Graphs)
